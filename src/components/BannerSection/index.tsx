@@ -4,7 +4,7 @@ import CustomButton from "../CustomButton"
 export default function BannerSection(){
     return(
         <section className="rounded-2xl bg-gradient-to-r from-[#5593f7] to-[#5593f7]/50 p-12">
-            <div className="max-w-2xl ">
+            <div className="max-w-2xl">
                 <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
                     Ofertas Especiais para Você!
                 </h2>
