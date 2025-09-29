@@ -22,7 +22,6 @@ export default function NewsletterSection() {
                 >
                     Inscreva-se
                 </CustomButton>
-
             </div>
         </section>
     )

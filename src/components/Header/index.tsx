@@ -29,26 +29,26 @@ export default function Header() {
                 <div className="w-[33%] flex items-center space-x-4 justify-end pr-4">
                     <CustomButton
                         variant="ghost"
-                        className="h-10 rounded-full hover:bg-[#5593f7] hover:text-[#111418]"
+                        className="h-10 rounded-lg hover:bg-[#5593f7] hover:text-[#111418]"
                         width="w-10"
                     >
-                    <FiShoppingCart />
+                        <FiShoppingCart />
 
                     </CustomButton>
                     <CustomButton
                         variant="ghost"
-                        className="h-10 rounded-full hover:bg-[#5593f7] hover:text-[#111418]"
+                        className="h-10 rounded-lg hover:bg-[#5593f7] hover:text-[#111418]"
                         width="w-10"
                     >
-                    <FaRegBell />
+                        <FaRegBell />
 
                     </CustomButton>
                     <CustomButton
                         variant="ghost"
-                        className="h-10 rounded-full hover:bg-[#5593f7] hover:text-[#111418]"
+                        className="h-10 rounded-lg hover:bg-[#5593f7] hover:text-[#111418]"
                         width="w-10"
                     >
-                    <FiUser />
+                        <FiUser />
 
                     </CustomButton>
 

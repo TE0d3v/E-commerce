@@ -1,19 +1,9 @@
-import Header from "../Header";
-interface PageWrapperProps {
-    showHeader?: boolean
-    children?: React.ReactNode
-}
+import PageWrapperContent from "./PageWrapperContent";
+import PageWrapperHeader from "./PageWrapperHeader";
+import PageWrapperRoot from "./PageWrapperRoot";
 
-export default function PageWrapper({
-    showHeader = true,
-    children
-}: PageWrapperProps){
-    return(
-        <div className="min-h-screen bg-[#111418] ">
-                {showHeader && <Header />}
-                <div className="py-8 px-28 space-y-12 max-sm:px-4 max-md:px-8">
-                    {children}
-                </div>
-        </div>
-    )
+export const PageWrapper = {
+    Root: PageWrapperRoot,
+    Header: PageWrapperHeader,
+    Content: PageWrapperContent
 }
