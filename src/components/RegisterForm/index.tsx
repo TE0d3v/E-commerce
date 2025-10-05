@@ -63,27 +63,28 @@ export default function RegisterForm() {
                     </div>
 
                     <div className="space-y-3">
-                        <CustomButton 
-                            variant="outline" 
-                            className="text-sm  hover:bg-[#F9AF32]" 
+                        <CustomButton
+                            variant="outline"
+                            className="text-sm hover:bg-[#F9AF32]"
                         >
                             <FiGithub />
                             Continuar com Github
                         </CustomButton>
-                    </div>
-                     <div className="space-y-3">
-                        <CustomButton 
-                            variant="outline" 
-                            className="text-sm hover:bg-[#4487F4]" 
+                        <CustomButton
+                            variant="outline"
+                            className="text-sm hover:bg-[#4487F4]"
                         >
                             <FaChrome />
                             Continuar com Google
                         </CustomButton>
                     </div>
-
                     <div className="text-center mt-6 flex items-center justify-center gap-2">
-                        <p className="text-sm text-gray-400">Já tem uma conta ?</p>
-                        <Link href="/" className="text-[#5593f7] hover:text-[#5593f7]/80 transition-colors text-sm">
+                        <p className="text-sm text-gray-400">Já tem uma conta?</p>
+                        <Link
+                            href="/"
+                            className="text-sm text-[#5593f7] hover:text-[#5593f3]/80
+                             transition-colors"
+                        >
                             Fazer Login
                         </Link>
                     </div>
